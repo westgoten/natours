@@ -1,0 +1,22 @@
+{
+	"name": "natours",
+	"version": "1.0.0",
+	"description": "",
+	"main": "server.js",
+	"scripts": {
+		"start:prod": "node server.js",
+		"start": "nodemon server.js",
+		"importData": "node ./dev-data/data/startup-data.js --import",
+		"deleteData": "node ./dev-data/data/startup-data.js --delete"
+	},
+	"author": "Rodrigo de Oliveira",
+	"license": "ISC",
+	"dependencies": {
+		"dotenv": "^8.2.0",
+		"express": "^4.17.1",
+		"mongoose": "^5.10.11",
+		"morgan": "^1.10.0",
+		"slugify": "^1.4.6"
+	},
+	"devDependencies": {}
+}
