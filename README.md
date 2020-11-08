@@ -12,17 +12,17 @@ _Exciting tours for adventurous people_
 
 ## API
 
-- CRUD operations
-- Filter/Sorting/Pagination/Projection features implemented on certain endpoints
-- Aggregation pipeline applied to get data insights from database on certain endpoints
--   API root endpoint: `/api/v1` (see details about the API endpoints [here](app.js) and [here](/routes))
+-   CRUD operations
+-   Filter/Sorting/Pagination/Projection features implemented on certain endpoints
+-   Aggregation pipeline applied to get data insights from database on certain endpoints
+-   Download [this](api-docs/Natours.postman_collection.json) Postman collection to see details about the API endpoints (you'll need to install [Postman](https://www.postman.com/))
 
 ## How to run
 
 -   Open your terminal on root folder and type `npm start`
 -   Visit the address `localhost:3000/overview.html` on your browser (no front-end logic implemented yet)
-- In order to use the API, you'll need to add a `config.env` file containing credentials to your remote database (the server was not deployed yet)
-- Then run the `importData` npm script to store some initial data on your database
+-   In order to use the API, you'll need to add a `config.env` file containing credentials to your remote database (the server was not deployed yet)
+-   Then run the `importData` npm script to store some initial data on your database
 
 
 ## Tools used
